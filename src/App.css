@@ -7,6 +7,12 @@
   pointer-events: none;
 }
 
+.redditContainer {
+  display: grid;
+  grid-template-columns: 2fr 0.5fr 1fr;
+  justify-content: space-between;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
